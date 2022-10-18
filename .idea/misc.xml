@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/drawable/ic_baseline_bar_chart_24.xml" value="0.2375" />
+        <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/drawable/ic_baseline_cloud_24.xml" value="0.2375" />
+        <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2175" />
         <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/layout/activity_cloud_details.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/layout/fragment_chart.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/layout/fragment_diary.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.253125" />
         <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/menu/menu_deadlines_context.xml" value="0.20854700854700856" />
         <entry key="..\:/Users/Ryanka Ray/Documents/CodePath/Project 5/app/src/main/res/menu/menu_settings.xml" value="0.25416666666666665" />
       </map>

@@ -11,4 +11,19 @@
     <string name="add_cloud">Add Cloud</string>
     <string name="edit_cloud">Edit Cloud</string>
     <string name="date">Date</string>
+
+    <string-array name="types">
+        <item>Cirrostratus</item>
+        <item>Cirrocumulus</item>
+        <item>Cirrus</item>
+        <item>Cumulonimbus</item>
+        <item>Altostratus</item>
+        <item>Altocumulus</item>
+        <item>Stratus</item>
+        <item>Stratocumulus</item>
+        <item>Cumulus</item>
+        <item>Nimbostratus</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

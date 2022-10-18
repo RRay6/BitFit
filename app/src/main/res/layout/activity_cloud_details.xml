@@ -12,36 +12,50 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp" android:id="@+id/linearLayout" app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginBottom="15dp" app:layout_constraintBottom_toTopOf="@+id/etTitle">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/linearLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/etTitle">
 
-<!--        <Spinner-->
-<!--            android:layout_width="232dp"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:id="@+id/spinner"-->
-<!--            android:layout_weight="4"/>-->
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="What Type of Cloud : "
+            android:textSize="18dp"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/spinner"
+            android:layout_weight="4"/>
 
     </LinearLayout>
 
-    <EditText
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/etType"
-        android:hint="Type of Cloud?"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/etTitle"
-        android:importantForAutofill="no"/>
+<!--    <EditText-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:ems="10"-->
+<!--        android:id="@+id/etType"-->
+<!--        android:hint="Type of Cloud?"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/etTitle"-->
+<!--        android:importantForAutofill="no"/>-->
 
     <EditText
         android:layout_width="346dp"
@@ -55,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/etType"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         android:layout_marginBottom="13dp"
         app:layout_constraintBottom_toTopOf="@+id/etDescription"
         android:importantForAutofill="no"/>
@@ -100,7 +114,7 @@
         android:layout_marginTop="9dp"
         app:layout_constraintTop_toBottomOf="@+id/datePicker"
         app:layout_constraintEnd_toEndOf="parent"
-        android:onClick="addAssignment"/>
+        android:onClick="addCloud"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
